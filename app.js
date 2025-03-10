@@ -5,7 +5,7 @@ const indexRouter = require('./routes/index');
 const app = express();
 const PORT = 3000;
 
-const { Client, GatewayIntentBits } = require('discord.js');
+const { Client, GatewayIntentBits } = require('app.js');
 const express = require('express');
 
 const TOKEN = 'MTM0ODYyMjMzNjg5ODYyOTY2Mg.GUPcmW.OO4iPjQAbA99ZNa_Vmlb3G3yy5S-Cd2NdngJgE';
